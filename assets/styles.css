@@ -613,7 +613,7 @@ header:after {
 @media (min-width: 600px) {
 
   .schedule {
-    padding: 6.25em 0; } }
+    padding: 6.25em 0 0; } }
 
 @media (min-width: 600px) {
 
@@ -625,6 +625,38 @@ header:after {
   .schedule__column:first-child {
     margin-left: 0; } }
 
+.schedule table {
+  position: relative;
+  height: 100%;
+  padding: 0.58824em 1.17647em;
+  color: #fff !important;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.schedule caption {
+  margin: 0 0 0.5em;
+  font-weight: 300;
+  font-size: 2.35294em;
+  letter-spacing: -1px;
+  color: #00467f;
+  line-height: 1.22222em;
+  text-align: center; }
+@media (min-width: 600px) {
+  .schedule caption {
+    font-size: 2.64706em;
+  }
+}
+
+.schedule tr {
+  padding: 0.58824em 1.17647em;
+  color: #fff !important;
+}
+
+.schedule td {
+    padding: .5em 2em;
+}
+
 .session {
   display: block;
   position: relative;
@@ -635,6 +667,14 @@ header:after {
 .session__title {
   color: #fff !important;
   text-transform: uppercase;
+}
+
+.schedule tr:nth-child(odd) {
+    background-color: #00467f;
+}
+
+.schedule tr:nth-child(even) {
+    background-color: #80A3C0;
 }
 
 .session:hover > .marker {
