@@ -420,7 +420,8 @@ header:after {
   padding: 7px;
   font-size: 1.17647em;
   font-weight: 300;
-  color: #00467f; }
+  color: #00467f;
+}
 @media (min-width: 915px) {
   .nav--link {
     margin: 0 0.5em; } }
@@ -445,7 +446,9 @@ header:after {
     transition: max-width 0.5s; }
 
   .nav--link:hover {
-    color: #00467f; }
+    color: #00467f;
+    text-decoration: none;
+}
 
   .nav--link:hover:before {
     max-width: 100%; } }
