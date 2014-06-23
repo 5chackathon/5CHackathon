@@ -380,6 +380,7 @@ header:after {
 
 .logo__main {
   display: inline-block;
+  text-transform: uppercase;
   position: relative;
   vertical-align: middle;
   margin-left: 0.5em;
@@ -397,7 +398,9 @@ header:after {
     opacity: 0; } }
 
 .nav--main {
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase;
+}
 @media (min-width: 600px) {
   .nav--main {
     float: right;
@@ -631,6 +634,7 @@ header:after {
   cursor: pointer; }
 .session__title {
   color: #fff !important;
+  text-transform: uppercase;
 }
 
 .session:hover > .marker {
@@ -989,7 +993,9 @@ header:after {
   margin: 1em 0 1em 0.5em;
   padding: 0.5em 2em;
   position: relative;
-  font-size: 1.76471em; }
+  font-size: 1.76471em;
+  text-transform: uppercase;
+}
 @media (min-width: 715px) {
   
   .footer__reg {
@@ -1022,6 +1028,7 @@ header:after {
 
 
 .footer__title {
+  text-transform: uppercase;
   font-size: 2.11765em;
   line-height: 0.7em;
   color: #3e9df7; }
@@ -1163,7 +1170,12 @@ header:after {
 .layout--page {
   max-width: 1008px;
   margin: 0 auto;
-  padding: 0 10px; }
+  padding: 0 10px;
+}
+
+.layout--page h1 {
+    text-transform: uppercase;
+}
 
 
 .nowrap {
