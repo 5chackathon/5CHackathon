@@ -9,7 +9,8 @@
 <link rel="stylesheet" type="text/css" href="assets/styles.css">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 
-<script src="./assets/ga.js"></script><script src="./assets/modernizr-2.6.2.min.js"></script><style type="text/css"></style>
+<script src="./bower_components/bower-google-analytics/analytics.js"></script>
+<script src="./bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
 <!--[if lt IE 9]>
@@ -108,7 +109,7 @@
           <div class="speaker__img" style="background-image: url(assets/img/andy.png)">
           </div>
           <div class="speaker__social">
-            <a class="speaker__social-button" href="#"><span class="glyphicon glyphicon-envelope"></span><span class="visuallyhidden">Twitter</span></a> 
+            <a class="speaker__social-button" href="#"><span class="glyphicon glyphicon-envelope"></span><span class="visuallyhidden">Twitter</span></a>
           </div>
         </div>
         <div class="speaker__name" style="color: #fff">
@@ -294,10 +295,9 @@
 </div>
 <div class="visionary__overlay"></div>
 
-<script src="./assets/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/jquery-1.10.1.min.js"><\/script>')</script>
-<script type="text/javascript" src="./assets/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="./assets/jquery.nav.js"></script>
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+<script src="./bower_components/jQuery-One-Page-Nav/jquery.nav.js"></script>
 <script type="text/javascript">
 $('.nav--main').onePageNav({
     currentClass: 'current',

@@ -1,0 +1,25 @@
+{
+  "name": "5chackathon",
+  "version": "0.0.1",
+  "homepage": "https://github.com/5chackathon/5chackathon",
+  "authors": [
+    "Andy Russell <arussell123@gmail.com>",
+    "Aloke Desai <alokedesai@gmail.com>"
+  ],
+  "description": "Website for the 5C Hackathon",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bower-google-analytics": "~0.1.1",
+    "jquery.scrollTo": "~1.4.12",
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.2"
+  }
+}
