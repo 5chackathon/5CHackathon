@@ -588,54 +588,6 @@ header:after {
   .banner__img {  display: none }
 }
 
-.banner__livestream {
-  position: absolute;
-  top: 30.1%;
-  left: 31.8%;
-  width: 36.6%;
-  height: 44.8%;
-}
-
-@media (max-width: 600px) {
-  .banner__livestream {
-    position: relative;
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 300px;
-  }
-}
-
-.banner__video-trigger {
-  position: absolute;
-  top: 30.1%;
-  left: 31.8%;
-  width: 36.5%;
-  height: 44.5%;
-  cursor: pointer;
-}
-
-.banner__video-trigger:hover .banner__youtube-play-button {  background-position: 0 0 }
-
-.banner__youtube-play-button {
-  display: block;
-  text-indent: -9999px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  margin-top: -30px;
-  margin-left: -41px;
-  width: 82px;
-  height: 60px;
-  background: url(/web/img/youtube-icon-dark.svg) no-repeat;
-  background-position: 0 -60px;
-  background-size: 82px 120px;
-  cursor: pointer;
-}
-
-.banner__youtube-play-button:hover {  background-position: 0 0 }
-
 .intro {
   padding: 3em 0 7em;
   height: 100%;
@@ -653,20 +605,6 @@ header:after {
 
 .intro h1 {
   color: white
-}
-
-.the-l, .the-a {
-  display: inline-block;
-  position: relative;
-}
-
-.the-l {
-  top: -.11765em;
-}
-
-.the-a {
-  top: .14118em;
-  left: -.08824em;
 }
 
 .intro__desc, .intro__reg {
@@ -688,7 +626,9 @@ header:after {
   transition: .3s;
 }
 
-.intro__reg:hover {  color: #00467f }
+.intro__reg:hover {
+  color: #00467f;
+}
 
 .intro__reg:after {
   left: 91%;
@@ -1045,11 +985,11 @@ header:after {
   -webkit-filter: none;
 }
 
-.incubators, .sponsors {
+.sponsors {
   text-align: center;
 }
 
-.incubators > img, .sponsors > img {
+.sponsors > img {
   margin: 10px 30px;
 }
 
@@ -1075,55 +1015,6 @@ header:after {
 
 .hack-week__highlight {
   font-weight: 400;
-}
-
-.map {
-  margin-top: 3em;
-  font-size: 1.52941em;
-  font-weight: 300;
-  color: #00467f;
-  background-image: linear-gradient(left, #96f2f1, 60%, #2def96, 100%);
-}
-
-.map__map {
-  margin: 0 -10px;
-  height: 280px;
-  background-image: url(img/map.png);
-  background-size: cover;
-  background-position: center center;
-}
-
-@media (min-width: 733px) {
-  .map__map {
-    float: left;
-    width: 60%;
-    margin: 0 2em 0 -10px;
-  }
-}
-
-.map__name {
-  display: block;
-  margin: 0 0 .5em;
-  font-weight: 400;
-}
-
-.map__address {  margin: 2em 0 }
-
-.bungalow {
-  padding: 7em 2em 4em;
-  height: 14em;
-  background-image: url(/web/img/bungalow-bg.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.bungalow__logo {
-  width: 100%;
-  height: 100%;
-  background-image: url(/web/img/bungalow.png);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .footer {
@@ -1345,17 +1236,6 @@ header:after {
 
 .nowrap {
   white-space: nowrap;
-}
-
-.youtube-icon {
-  display: none;
-  position: absolute;
-  right: 30px;
-  top: 7px;
-}
-
-@media (min-width: 600px) {
-  .youtube-icon {  display: block }
 }
 
 .session-video {
