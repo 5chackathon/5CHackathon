@@ -575,7 +575,6 @@ header:after {
 @media (min-width: 600px) {
   .banner {
     display: block;
-    background-image: url(/web/img/banner.jpg);
     background-size: cover;
     background-position: center center;
   }
@@ -602,7 +601,6 @@ header:after {
 
 @media (min-width: 600px) {
   .intro {
-    background-image: url(/web/img/intro-bg.jpg);
     background-size: cover;
     background-position: center center;
     padding: 5em 0 7em;
@@ -1199,7 +1197,6 @@ header:after {
   bottom: 0;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url(/web/img/visionary.gif);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
