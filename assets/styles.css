@@ -41,11 +41,16 @@ h2, .h2 {
   line-height: 1.6em;
   text-align: center;
 }
-
+.no-margin-top {
+  margin-top: .75em;
+}
 @media (min-width: 600px) {
   h2, .h2 {
     font-size: 1.76471em;
     margin: 2.5em 0 .4em;
+  }
+  .no-margin-top {
+  margin-top: .4em;
   }
 }
 
