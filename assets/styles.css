@@ -640,12 +640,12 @@ header:after {
 
 .schedule, .coc {
   padding: 3em 0;
-  background-color: #f5faf9;
+  background-color: #eef7fa;
 }
 
 @media (min-width: 600px) {
   .schedule {
-    padding: 6.25em 0 0;
+    padding: 6.25em 0 3em;
   }
 }
 
@@ -995,7 +995,7 @@ header:after {
 
 .hack-week {
   padding: 6.25em 0 0;
-  background-color: #f5faf9;
+  background-color: #eef7fa;
 }
 
 .hack-week h2 {
