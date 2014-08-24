@@ -1156,7 +1156,7 @@ header:after {
   transition: .3s;
 }
 
-.email:hover {
+.github:hover {
   background-color: #3e5b98;
 }
 
@@ -1164,7 +1164,7 @@ header:after {
   background-color: #32c2f2;
 }
 
-.google:hover {
+.email:hover {
   background-color: #cd6041;
 }
 
