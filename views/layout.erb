@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title><%= @title %></title>
+<meta name="description" content="5C Hackathon November 14, 2014">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+<link rel="stylesheet" type="text/css" href="/bower_components/fontawesome/css/font-awesome.min.css">
+
+<script src="/bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+<!--[if lt IE 9]>
+  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="page">
+  <header class="off">
+    <div class="layout--page">
+      <a class="logo" href="/#">
+        <span class="logo__main">5C Hackathon</span></a>
+      <nav>
+        <ul class="nav--main">
+          <li class=""><a class="nav--link" href="/#schedule" data-text="SCHEDULE">Schedule</a></li>
+          <li class=""><a class="nav--link" href="/#companies" data-text="SPONSORS">Sponsors</a></li>
+          <li class=""><a class="nav--link" href="/#team" data-text="TEAM">Team</a></li>
+          <li class=""><a class="nav--link" href="/#hack-week" data-text="HACK WEEK">Hack Week</a></li>
+          <li><a class="nav--link reg">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <%= yield %>
+  <footer class="footer">
+    <div class="layout--page">
+      <div class="footer__details">
+        <div class="footer__logo">
+          <img src="img/logo.png" height="100">
+        </div>
+        <div class="footer__title">
+          5C Hackathon
+          <span class="footer__date">
+            November 14, 2014 &nbsp; &nbsp;Pomona College
+          </span>
+        </div>
+      </div>
+      <a class="footer__reg reg">Register</a>
+    </div>
+    <div class="closure">
+      <div class="layout--page">
+        <div class="social">
+          <a target="_blank" class="social__link twitter" href="#"><i class="fa fa-twitter"></i><span class="visuallyhidden">Twitter</span></a>
+          <a class="social__link email" href="#"><i class="fa fa-envelope"></i><span class="visuallyhidden">Email</span></a>
+        </div>
+        <span class="closure__copy">© 2014 5C Hackathon</span>
+      </div>
+    </div>
+  </footer>
+</div>
+<div class="visionary__overlay"></div>
+
+<script src="/bower_components/jquery/jquery.min.js"></script>
+<script src="/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+<script src="/bower_components/jQuery-One-Page-Nav/jquery.nav.js"></script>
+<script type="text/javascript">
+$('.nav--main').onePageNav({
+    currentClass: 'current',
+    changeHash: true,
+    scrollSpeed: 750,
+    filter: ':not(.reg)'
+});
+
+if ($(window).width() > 600) {
+    window.laTechOn = false;
+    $header = $('header');
+    $(window).scroll(function () {
+        var scrollTop = $(this).scrollTop();
+        if (scrollTop <= 0) {
+            $header.removeClass('on')
+            window.laTechOn = false;
+        } else {
+            if (window.laTechOn === false) {
+                $header.addClass('on');
+                window.laTechOn = true;
+            }
+        }
+    });
+    $('.session').click(function () {
+        $(this).toggleClass('open').find('.session__desc').slideToggle();
+    });
+    $('.visionary').click(function (e) {
+        e.preventDefault();
+        $('.visionary__overlay').fadeIn();
+    });
+    $('.visionary__overlay').click(function () {
+        $(this).fadeOut();
+    });
+}
+</script>
+</body>
+</html>

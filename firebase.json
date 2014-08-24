@@ -1,9 +1,0 @@
-{
-  "firebase": "5chackathon",
-  "public": ".",
-  "ignore": [
-    "firebase.json",
-    ".*",
-    "**/node_modules/**"
-  ]
-}
