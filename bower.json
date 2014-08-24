@@ -20,7 +20,8 @@
     "jquery.scrollTo": "~1.4.12",
     "jquery": "~2.1.1",
     "modernizr": "~2.8.2",
-    "jQuery-One-Page-Nav": "latest"
+    "jQuery-One-Page-Nav": "latest",
+    "fontawesome": ">= 4.0.0"
   },
   "resolutions": {
     "jquery": ">=1.8"
