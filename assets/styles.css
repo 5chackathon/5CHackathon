@@ -1152,7 +1152,7 @@ header:after {
   transition: .3s;
 }
 
-.facebook:hover {
+.email:hover {
   background-color: #3e5b98;
 }
 
@@ -1170,10 +1170,6 @@ header:after {
 
 .linkedin:hover {
   background-color: #3098b6;
-}
-
-.email:hover {
-  background-color: #666666;
 }
 
 .visionary {
