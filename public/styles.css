@@ -1401,8 +1401,15 @@ box-shadow: 0 0 10px rgba(0,0,0,.5);
 .panel-title{
   padding: 0;
 }
-@media (max-width: 975px) and (min-width: 767px) {
+/* smaller font for ipad viewport */
+@media (max-width: 975px) and (min-width: 765px) {
   .panel-title {
     font-size: 3em;
+  }
+}
+
+@media(min-width: 600px) {
+  .sponsor-info {
+    padding-top: 100px;
   }
 }
