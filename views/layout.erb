@@ -18,7 +18,7 @@
 <![endif]-->
 
 <div class="page">
-  <header class="off">
+  <header class="on">
     <div class="layout--page">
       <a class="logo" href="/#">
         <span class="logo__main">5C Hackathon</span></a>
@@ -90,20 +90,20 @@ $('.nav--main').onePageNav({
 });
 
 if ($(window).width() > 600) {
-    window.laTechOn = false;
-    $header = $('header');
-    $(window).scroll(function () {
-        var scrollTop = $(this).scrollTop();
-        if (scrollTop <= 0) {
-            $header.removeClass('on')
-            window.laTechOn = false;
-        } else {
-            if (window.laTechOn === false) {
-                $header.addClass('on');
-                window.laTechOn = true;
-            }
-        }
-    });
+    // window.laTechOn = false;
+    // $header = $('header');
+    // $(window).scroll(function () {
+    //     var scrollTop = $(this).scrollTop();
+    //     if (scrollTop <= 0) {
+    //         $header.removeClass('on')
+    //         window.laTechOn = false;
+    //     } else {
+    //         if (window.laTechOn === false) {
+    //             $header.addClass('on');
+    //             window.laTechOn = true;
+    //         }
+    //     }
+    // });
     $('.session').click(function () {
         $(this).toggleClass('open').find('.session__desc').slideToggle();
     });
