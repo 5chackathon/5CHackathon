@@ -546,6 +546,22 @@ header:after {
 
 .reg:hover {  color: white }
 
+.reg:after {
+  content: "coming soon";
+  position: absolute;
+  left: 3em;
+  padding: 0 2px;
+  white-space: nowrap;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+  border: 1px solid #00467f;
+  color: #00467f;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .5em;
+}
 
 .banner {
   width: 100%;
