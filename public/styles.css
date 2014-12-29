@@ -1367,7 +1367,7 @@ header:after {
     background-color: #fff;
   }
   .sponsor__info {
-    color: #fff;
+    /*color: #fff;*/
   }
 
   /*pricing table styles*/
@@ -1412,4 +1412,12 @@ box-shadow: 0 0 10px rgba(0,0,0,.5);
   .sponsor-info {
     padding-top: 100px;
   }
+}
+
+.bold-blue {
+  font-weight: 400;
+  color: #3e9df7;
+}
+.dark-blue {
+  color: #00467f;
 }
