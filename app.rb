@@ -10,6 +10,6 @@ get '/sponsor' do
     erb :sponsor
 end
 
-get '/register' do
-	erb :register
-end
+# get '/register' do
+# 	erb :register
+# end
