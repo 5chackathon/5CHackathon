@@ -973,7 +973,7 @@ header:after {
   text-align: center;
 }
 
-.logos > img {
+.logos > a > img {
   display: inline-block;
   margin: 10px 20px;
   /*opacity: 0.5;*/
@@ -985,10 +985,14 @@ header:after {
   transition: .3s;*/
 }
 
-.logos > img:hover {
+.logos > a> img:hover {
   opacity: 1;
   filter: none;
   -webkit-filter: none;
+}
+
+.logos a {
+  outline: 0;
 }
 
 .sponsors {
