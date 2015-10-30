@@ -982,7 +982,7 @@ header:after {
 
 .logos > a > img {
   display: inline-block;
-  margin: 10px 20px;
+  margin: 10px 18px;
   /*opacity: 0.5;*/
   filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.33330.33330.3333000.33330.33330.3333000.33330.33330.33330000010'/></filter></svg>#grayscale");
   /*filter: gray;
