@@ -549,7 +549,7 @@ header:after {
 
 .reg:after {
   /* Coming soon text */
-  /*content: "coming soon";
+  content: "coming soon";
   position: absolute;
   left: 3em;
   padding: 0 2px;
@@ -562,7 +562,7 @@ header:after {
   color: #00467f;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: .5em;*/
+  font-size: .5em;
 }
 
 .banner {
