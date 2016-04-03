@@ -549,7 +549,7 @@ header:after {
 
 .reg:after {
   /* Coming soon text */
-  content: "coming soon";
+  /*content: "coming soon";*/
   position: absolute;
   left: 3em;
   padding: 0 2px;
