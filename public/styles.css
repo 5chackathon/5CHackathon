@@ -667,19 +667,13 @@ header:after {
 }
 
 .schedule, .coc {
-  padding: 2em 0;
+  padding: 2em 0 3em;
   background-color: #eef7fa;
 }
 
 @media (min-width: 695px) {
   .schedule {
-    padding: 2em 0 3em;
-  }
-}
-
-@media (min-width: 695px) {
-  .schedule {
-    padding: 3.25em 0 3em;
+    padding: 3.25em 0 3.5em;
   }
 }
 
@@ -704,18 +698,19 @@ header:after {
   width: 100%;
 }
 
-.schedule caption {
+.schedule .caption {
   margin: 0 0 .5em;
   font-weight: 300;
   font-size: 2.35294em;
   letter-spacing: -1px;
   color: #00467f;
+  text-transform: uppercase;
   line-height: 1.22222em;
   text-align: center;
 }
 
 @media (min-width: 695px) {
-  .schedule caption {
+  .schedule .caption {
     font-size: 2.64706em;
   }
 }
@@ -734,11 +729,6 @@ header:after {
   padding: .58824em 1.17647em;
   color: #fff!important;
   cursor: pointer;
-}
-
-.session__title {
-  color: #fff!important;
-  text-transform: uppercase;
 }
 
 .schedule tr:nth-child(odd) {
@@ -806,9 +796,12 @@ header:after {
 
 .session__title {
   position: relative;
-  margin: 0 0 .25em;
+  color: #fff!important;
+  text-transform: uppercase;
+  margin: 0 0 .1em;
   font-size: 1.17647em;
   font-weight: 400;
+  padding-top: 1px;
 }
 
 .session__title + .marker { display: none; }
@@ -993,7 +986,7 @@ header:after {
 }
 
 .companies {
-  padding: 3.25em 0 2em;
+  padding: 2.5em 0 2em;
   background-color: white;
   text-align: center;
 }
