@@ -540,6 +540,16 @@ header:after {
 
 .current > .nav--link:before { max-width: 100%; }
 
+.nav--link.reg {
+  margin-top: 14px;
+}
+@media (min-width: 695px) {
+  .nav--link.reg {
+    margin-top: auto;
+  }
+}
+
+
 .reg {
   display: inline-block;
   position: relative;
@@ -557,6 +567,9 @@ header:after {
 .reg:after {
   /* Coming soon text */
   content: "coming soon";
+  /* When disabling, make sure to comment out the
+     .nav--link.reg margin-top lines, too (for mobile layouts) */
+  text-transform: uppercase;
   position: absolute;
   top: 0em;
   left: 4.5em;
@@ -570,7 +583,6 @@ header:after {
   border: 1px solid #00467f;
   color: #00467f;
   font-weight: bold;
-  text-transform: uppercase;
   font-size: .5em;
 }
 
