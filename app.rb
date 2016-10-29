@@ -14,6 +14,6 @@ get '/sponsor' do
     erb :sponsor
 end
 
-# get '/register' do
-# 	erb :register, :layout => :fullpage
-# end
+get '/register' do
+	erb :register, :layout => :fullpage
+end
