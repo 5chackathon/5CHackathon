@@ -3,7 +3,7 @@ require 'bundler/setup'
 require 'sinatra'
 
 get '/' do
-    erb :index
+  erb :index
 end
 
 not_found do
@@ -11,9 +11,9 @@ not_found do
 end
 
 get '/sponsor' do
-    erb :sponsor
+  erb :sponsor
 end
 
-# get '/register' do
-# 	erb :register, :layout => :fullpage
-# end
+get '/register' do
+	erb :register, :layout => :fullpage
+end
