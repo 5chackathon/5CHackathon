@@ -534,14 +534,14 @@ header:after {
 
 .current > .nav--link:before { max-width: 100%; }
 
-.nav--link.reg {
+/*.nav--link.reg {
   margin-top: 14px;
 }
 @media (min-width: 695px) {
   .nav--link.reg {
     margin-top: auto;
   }
-}
+}*/
 
 
 .reg {
@@ -564,7 +564,7 @@ header:after {
 
 .reg:after {
   /* Coming soon text */
-  /*content: "coming soon";*/
+  content: "coming soon";
   /* When enabling/disabling, make sure to (un)comment the
      .nav--link.reg margin-top lines, too (for mobile layouts) */
   text-transform: uppercase;
