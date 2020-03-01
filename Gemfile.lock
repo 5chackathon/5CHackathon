@@ -14,7 +14,11 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   shotgun
   sinatra
+
+BUNDLED WITH
+   2.1.4
