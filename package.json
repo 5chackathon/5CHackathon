@@ -6,13 +6,13 @@
     "npm": "1.3.x"
   },
   "dependencies": {
-    "bower": "1.8.x"
+    "bower": "^1.8.8"
   },
   "scripts": {
     "postinstall": "bower install"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/5chackathon/5CHackathon"
+    "type": "git",
+    "url": "https://github.com/5chackathon/5CHackathon"
   }
 }
