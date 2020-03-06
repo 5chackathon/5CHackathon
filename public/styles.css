@@ -567,7 +567,7 @@ header:after {
   /*content: "coming soon";*/
   /* When enabling/disabling, make sure to (un)comment the
      .nav--link.reg margin-top lines, too (for mobile layouts) */
-  text-transform: uppercase;
+  /* text-transform: uppercase;
   position: absolute;
   top: 0em;
   left: 4.5em;
@@ -581,7 +581,7 @@ header:after {
   border: 1px solid #00467f;
   color: #00467f;
   font-weight: bold;
-  font-size: .5em;
+  font-size: .5em; */
 }
 
 .banner {
