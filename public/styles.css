@@ -562,7 +562,7 @@ header:after {
   background-color: #fff;
 }
 
-.reg:after {
+/*.reg:after {
   /* Coming soon text */
   /*content: "coming soon";*/
   /* When enabling/disabling, make sure to (un)comment the
@@ -581,8 +581,8 @@ header:after {
   border: 1px solid #00467f;
   color: #00467f;
   font-weight: bold;
-  font-size: .5em; */
-}
+  font-size: .5em;
+}*/
 
 .banner {
   width: 100%;
