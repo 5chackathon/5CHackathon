@@ -14,12 +14,12 @@ GEM
 
 PLATFORMS
   ruby
+<<<<<<< HEAD
   x64-mingw32
   x86-mingw32
+=======
+>>>>>>> parent of df65219... added register link and removed coming soon tag
 
 DEPENDENCIES
   shotgun
   sinatra
-
-BUNDLED WITH
-   2.1.4
