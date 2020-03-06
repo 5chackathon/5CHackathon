@@ -15,10 +15,15 @@ GEM
 PLATFORMS
   ruby
 <<<<<<< HEAD
+<<<<<<< HEAD
   x64-mingw32
   x86-mingw32
 =======
 >>>>>>> parent of df65219... added register link and removed coming soon tag
+=======
+  x64-mingw32
+  x86-mingw32
+>>>>>>> parent of c8e6690... Merge branch 'master' of https://github.com/5chackathon/5CHackathon
 
 DEPENDENCIES
   shotgun
