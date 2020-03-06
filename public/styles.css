@@ -534,14 +534,14 @@ header:after {
 
 .current > .nav--link:before { max-width: 100%; }
 
-/*.nav--link.reg {
+.nav--link.reg {
   margin-top: 14px;
 }
 @media (min-width: 695px) {
   .nav--link.reg {
     margin-top: auto;
   }
-}*/
+}
 
 
 .reg {
