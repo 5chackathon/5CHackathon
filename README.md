@@ -1,5 +1,7 @@
 # 5CHackathon.com
 
+Note: As of February 2023, the updated version of this repository is [5chackathon.github.io](https://github.com/5chackathon/5chackathon.github.io)
+
 ## Overview
 
 This repository contains the code for the [5C Hackathon](http://5CHackathon.com/) website, a Sinatra app that runs on Heroku.
